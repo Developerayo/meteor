@@ -75,7 +75,7 @@ export class AccountsCommon {
    */
   userId() {
     throw new Error("userId method not implemented");
-  }
+  } 
 
   /**
    * @summary Get the current user record, or `null` if no user is logged in. A reactive data source.
