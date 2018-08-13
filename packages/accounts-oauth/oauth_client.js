@@ -33,7 +33,6 @@ const convertError = err => {
 // login attempt is stored in the reload migration data, and the
 // credentialSecret for a successful login is stored in session
 // storage.
-
 Meteor.startup(() => {
   const oauth = OAuth.getDataAfterRedirect();
   if (! oauth)
